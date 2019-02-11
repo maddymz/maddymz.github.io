@@ -20,7 +20,7 @@
 .companies {
 	margin-top: 20px;
 	height: 100px;
-	width: 100px;
+	/* width: 100px; */
 }
 
 .highchart{
@@ -63,6 +63,7 @@
 	overflow: hidden;
 	-webkit-transition: width 0.5s ease;
 	transition: width 0.5s ease;
+	display: hidden;
   }
   .tl-item:before, .tl-item:after {
 	-webkit-transform: translate3d(0, 0, 0);
@@ -75,7 +76,6 @@
 	height: 100%;
   }
   .tl-item:after {
-	background: rgba(3, 22, 37, 0.85);
 	opacity: 1;
 	-webkit-transition: opacity 0.5s ease;
 	transition: opacity 0.5s ease;
@@ -126,16 +126,20 @@
 	z-index: 1;
 	text-align: center;
 	margin: 0 1.618em;
-	top: 55%;
+	top: 0%;
 	opacity: 0;
+	color: #fff;
   }
   .tl-content h1 {
 	font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
-	color: #1779cf;
+	color: #fff;
 	font-size: 1.44rem;
 	font-weight: normal;
-  }
+	}
+	.tl-content p {
+		color: #fff;
+	}
   
   .tl-year {
 	position: absolute;
@@ -151,7 +155,12 @@
 	font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
 	font-size: 1.728rem;
 	line-height: 0;
-  }
+	color: #fff;
+	}
+	
+	.tl-item:hover .tl-year{
+		display: none;
+	}
   
   .tl-bg {
 	-webkit-transform: translate3d(0, 0, 0);
@@ -707,6 +716,7 @@ table {
 /* ==========================================================================Intro========================================================================== */
 .intro p {
 	margin:50px 0 0;
+	text-align: justify;
 }
 h1.arrow {
 	font-size: 16px;
@@ -800,6 +810,9 @@ h1.arrow span {
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out;
 	color:#fff;
+}
+.services p {
+	text-align: justify;
 }
 .features-wrapper {
 	margin:70px 0 0;
