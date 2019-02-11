@@ -63,7 +63,6 @@
 	overflow: hidden;
 	-webkit-transition: width 0.5s ease;
 	transition: width 0.5s ease;
-	display: hidden;
   }
   .tl-item:before, .tl-item:after {
 	-webkit-transform: translate3d(0, 0, 0);
@@ -328,7 +327,6 @@ a:active,a:hover {
 	outline: 0;
 }
 /* ==========================================================================Typography========================================================================== */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 h1 {
 	font-size:2em;
 	margin:0.67em 0;
