@@ -9,13 +9,23 @@ Highcharts.chart('charts', {
         categories: ['C', 'Java', 'Android', 'AngularJS/Angular', 'Ionic/Bootstrap/HTML/CSS', 'NumPy', 'matplotlib', 'NodeJS', 'jQuery/Javascript', 'Tensorflow', 'Git/JIRA/SVN/Jenkins', 'Android Studio/XCode', 'Gulp/PhoneGap', 'MySQL/mongoDB', 'Apache/Tomcat'],
         title: {
             text: null
+        },
+        labels: {
+            style:{
+                color:'#fff',
+                fill: '#fff'
+            } 
         }
     },
     yAxis: {
         min: 0,
         title: null,
         labels: {
-            overflow: 'justify'
+            overflow: 'justify',
+            style: {
+                color: '#fff',
+                fill : '#fff'
+            }
         }
     },
     tooltip: {
