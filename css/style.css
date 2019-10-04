@@ -469,7 +469,7 @@ legend {
 }
 button,input,select,textarea {
 	font-size:100%;
-	/margin:0;
+	margin:0;
 	vertical-align:baseline;
 	*vertical-align:middle;
 }
@@ -684,7 +684,6 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
